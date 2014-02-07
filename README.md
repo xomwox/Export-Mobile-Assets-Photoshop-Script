@@ -39,8 +39,9 @@ This is the directory structure you will end up with following the instructions 
     /iphone/{filename}.png
     /iphone_retina/{filename}@2x.png
     /ipad/{filename}~ipad.png
-    /ipad_retina/{filename}@2x~ipad.png
+    /ipad_retina/{filename}@2x~ipad.png`
 
+```
 
 ## Thanks
 
