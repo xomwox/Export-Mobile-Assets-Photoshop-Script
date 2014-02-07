@@ -3,10 +3,38 @@ Export-Mobile-Assets-Photoshop-Script
 
 Flexible and powerful Photoshop script for exporting assets for Android and iOS projects.
 
+// This script outputs iOS & Android PNG assets from XHDPI/RETINA source files in PSD or PNG format. 
 
-Installation
-=====================================
+// The resulting PNGs will be placed in sub-folders within your target folder.
 
-1. Download the script file.
+
+## Install
+
+1. Download the .jsx file.
 
 2. Move the .jsx file to your Photoshop scripts folder. 
+
+
+## Usage
+
+1. Open Adobe Photoshop CS6 (32 & 64 bits)
+2. Go to File > Scripts > Export Mobile Assets
+3. Confirm if you want to delete your source files after process.
+4. Select your source PSD or PNG files
+4. Wait
+
+## Result
+
+    |-- base_directory
+    |   |-- android
+    |       |-- res
+    |         |-- drawable-xhdpi
+    |         |-- drawable-hdpi
+    |         |-- drawable-mdpi
+    |         |-- drawable-ldpi
+    |   |-- ios
+    |       |-- iphone
+    |       |-- iphone_retina
+    |       |-- ipad
+    |       |-- ipad_retina
+    
