@@ -41,3 +41,7 @@ This is the directory structure you will end up with following the instructions 
     /ipad/{filename}~ipad.png
     /ipad_retina/{filename}@2x~ipad.png
 
+
+## Thanks
+
+Made with love in Buenos Aires, Argentina.
