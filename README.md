@@ -25,22 +25,9 @@ Flexible and powerful Photoshop script for exporting assets for Android and iOS 
 
 ## Result
 
-    |-- base_directory
-    |   |-- android
-    |       |-- res
-    |         |-- drawable-xhdpi
-    |         |-- drawable-hdpi
-    |         |-- drawable-mdpi
-    |         |-- drawable-ldpi
-    |   |-- ios
-    |       |-- iphone
-    |       |-- iphone_retina
-    |       |-- ipad
-    |       |-- ipad_retina
-
 This is the directory structure you will end up with following the instructions in the Usage Guide.
 
-```javascript
+```
 /android
     /res
         /drawable-xhdpi/{filename}.png
